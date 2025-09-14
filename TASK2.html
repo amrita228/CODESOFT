@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Landing Page Demo</title>
+    <style>
+      body {
+        margin: 0;
+        font-family: "Segoe UI", Arial, sans-serif;
+        background: #f2f5fa;
+        color: #222;
+      }
+      .header {
+        background: #225bb9;
+        color: #fff;
+        padding: 36px 0 16px 0;
+        text-align: center;
+      }
+      .header h1 {
+        font-size: 2.6em;
+        margin-bottom: 8px;
+        font-weight: 800;
+        letter-spacing: 2px;
+      }
+      .header p {
+        font-size: 1.18em;
+        margin-top: 0;
+        margin-bottom: 25px;
+        font-weight: 400;
+      }
+      .nav {
+        background: #17387d;
+        text-align: center;
+        padding: 7px 0;
+      }
+      .nav a {
+        color: #fff;
+        margin: 0 21px;
+        text-decoration: none;
+        font-weight: 500;
+        letter-spacing: 1px;
+        transition: color 0.16s;
+      }
+      .nav a:hover {
+        color: #99ccff;
+      }
+      .main-content {
+        max-width: 1050px;
+        margin: 36px auto 0 auto;
+        display: flex;
+        gap: 30px;
+        flex-wrap: wrap;
+        padding: 0 20px;
+      }
+      .column {
+        flex: 1 1 300px;
+        background: #fff;
+        border-radius: 10px;
+        box-shadow: 0 2px 12px rgba(66, 85, 185, 0.075);
+        padding: 30px 23px;
+        margin-bottom: 24px;
+        min-width: 260px;
+      }
+      .column h2 {
+        color: #225bb9;
+      }
+      .feature-list {
+        margin: 20px 0 0 0;
+        padding: 0 0 0 18px;
+      }
+      .cta {
+        text-align: center;
+        margin: 43px 0 18px 0;
+      }
+      .cta-btn {
+        background: #225bb9;
+        color: #fff;
+        border: none;
+        padding: 16px 44px;
+        font-size: 1.13em;
+        border-radius: 6px;
+        font-weight: bold;
+        cursor: pointer;
+        transition: background 0.17s;
+        letter-spacing: 1px;
+        margin-top: 18px;
+        box-shadow: 0 2px 8px rgba(34, 91, 185, 0.12);
+      }
+      .cta-btn:hover {
+        background: #1a4692;
+      }
+      .footer {
+        background: #17387d;
+        color: #fff;
+        text-align: center;
+        padding: 18px 0 12px 0;
+        margin-top: 36px;
+        font-size: 1em;
+        border-radius: 0 0 10px 10px;
+      }
+      @media (max-width: 600px) {
+        .main-content {
+          flex-direction: column;
+          padding: 0 5px;
+        }
+        .column {
+          padding: 20px 10px;
+        }
+        .header h1 {
+          font-size: 1.2em;
+        }
+        .cta-btn {
+          width: 90%;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Header Section -->
+    <div class="header">
+      <h1>WELCOME TO MY LANDING PAGE</h1>
+      <p>
+        This is a modern, visually appealing landing page project built with
+        only HTML and CSS.
+      </p>
+    </div>
+
+    <!-- Navigation Bar -->
+    <div class="nav">
+      <a href="#features">Features</a>
+      <a href="#about">About</a>
+      <a href="#contact">Contact</a>
+    </div>
+
+    <!-- Main Content with Columns -->
+    <div class="main-content">
+      <div class="column" id="features">
+        <h2>Features</h2>
+        <ul class="feature-list">
+          <li>Create columns and organized sections</li>
+          <li>Responsive layout</li>
+          <li>Custom color palette and boxes</li>
+          <li>Eye-catching CTA button</li>
+          <li>Easy to customize</li>
+        </ul>
+      </div>
+      <div class="column" id="about">
+        <h2>About</h2>
+        <p>
+          This landing page was designed to demonstrate HTML and CSS skills, and
+          to serve as a foundation for any creative project or online presence.
+          <br /><br />
+          Pay attention to alignment, spacing, color palette, and structure for
+          a user-friendly design!
+        </p>
+      </div>
+      <div class="column" id="contact">
+        <h2>Contact</h2>
+        <p>
+          Email: amritaaauji228@gmail.com<br />
+          Phone: 8097163137
+        <p>
+          You can reach out any time for collaboration or project inquiries.
+        </p>
+      </div>
+    </div>
+
+    <!-- Call To Action -->
+    <div class="cta">
+      <h2>Ready to get started?</h2>
+      <button class="cta-btn">Sign Up Now</button>
+    </div>
+
+    <!-- Footer -->
+    <div class="footer">&copy; 2025 Amrita Aauj. All rights reserved.</div>
+  </body>
+</html>
